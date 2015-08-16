@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"log (fn) [E]"
+			],
+			[
+				"con",
+				"console           (obj)  [E]"
+			],
+			[
+				"coll",
+				"collectionName    (obj)  [E]"
+			],
+			[
+				"met",
+				"methods (fn) [E]"
+			],
+			[
+				"Depar",
+				"DepartamentModel"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Rou",
+				"Router          (fn) [E]"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"last_filter": "forma",
+		"selected_items":
+		[
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"fo",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"termina",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"Snippet:  nav",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"formm",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 109.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/igor/meteor-app/Anna-Mirror"
+	],
+	"file_history":
+	[
+		"/home/igor/meteor-app/annaProject/app/client/templates/calendar/create_event/create_event.html",
+		"/home/igor/meteor-app/annaProject/app/client/templates/calendar/list_event/list_event.html",
+		"/home/igor/meteor-app/annaProject/app/client/templates/calendar/list_event/list_event.css",
+		"/home/igor/Downloads/Popcorn-Time-0.3.8-2-Linux-64.tar.xz",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/inconfidencia.com.br/themes/inconfidencia_novo/vendor/css/popup.css",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/inconfidencia.com.br/modules/programacao/players/pop_fm.php",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/inconfidencia.com.br/modules/programacao/players/pop_am.php",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/applicativo_inconfidencia/www/directives/audioplayer.html",
+		"/var/www/html/texeira-aviacao/index.html",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket/insertTicketForm.html",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/BoletoBancario/banco/bb.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/BoletoBancario/banco/include/layout_bb.php",
+		"/var/www/html/serafine/wp-config.php",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/skin/frontend/bertholdo/brtloja/css/default.css",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/banco/bb.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/standard/success.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/banco/include/layout_bb.php",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/banco/include/layout_bancoob.php",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/BoletoBancario.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/standard/view.phtml",
+		"/home/igor/meteor-app/plankTicket/models/Tickets.js",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/comercill.com.br/public_html/app/design/frontend/default/comercil/template/checkout/success.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/checkout/-success.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/base/default/template/BoletoBancario/popup-segundavia.phtml",
+		"/home/igor/meteor-app/plankTicket/models/Departament.js",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket/newticket.html",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket/newticket.js",
+		"/home/igor/meteor-app/plankTicket/client/views/tickets/tickets.js",
+		"/home/igor/meteor-app/plankTicket/client/views/tickets/tickets.html",
+		"/home/igor/meteor-app/plankTicket/client/views/tickets/sidebar.html",
+		"/home/igor/meteor-app/plankTicket/client/views/header/header.html",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket/sidebar.html",
+		"/home/igor/meteor-app/plankTicket/routes/ticketsRoutes.js",
+		"/home/igor/meteor-app/plankTicket/client/stylesheets/header.less",
+		"/home/igor/meteor-app/plankTicket/client/views/header/header.js",
+		"/home/igor/meteor-app/plankTicket/client/views/home/home.js",
+		"/home/igor/meteor-app/plankTicket/client/stylesheets/home.less",
+		"/home/igor/meteor-app/plankTicket/client/views/home/home.html",
+		"/home/igor/meteor-app/plankTicket/client/config/router.js",
+		"/home/igor/meteor-app/plankTicket/client/views/login/login.html",
+		"/home/igor/meteor-app/__plankTicket/plankTicket.js",
+		"/home/igor/meteor-app/plankTicket/client/views/login/login.js",
+		"/home/igor/meteor-app/plankTicket/models/Users.js",
+		"/home/igor/meteor-app/plankTicket/routes/mainRoutes.js",
+		"/home/igor/meteor-app/plankTicket/client/lib/drunken-parrot.css",
+		"/home/igor/meteor-app/plankTicket/client/stylesheets/login.less",
+		"/home/igor/meteor-app/plankTicket/client/stylesheets/helpers.less",
+		"/home/igor/meteor-app/plankTicket/client/views/common/footer.html",
+		"/home/igor/meteor-app/plankTicket/client/lib/constants.js",
+		"/home/igor/meteor-app/plankTicket/client/views/signin/signin.js",
+		"/home/igor/meteor-app/plankTicket/client/views/signin/signin.html",
+		"/home/igor/meteor-app/plankTicket/client/stylesheets/signin.less",
+		"/home/igor/meteor-app/__plankTicket/plankTicket.html",
+		"/home/igor/meteor-app/plankTicket/client/views/layouts/basic.html",
+		"/home/igor/meteor-app/plankTicket/client/config/pageTransition.js",
+		"/home/igor/meteor-app/plankTicket/client/views/layouts/slim.html",
+		"/home/igor/meteor-app/__plankTicket/client/views/home.js",
+		"/home/igor/meteor-app/plankTicket/plankTicket.html",
+		"/home/igor/meteor-app/plankTicket/plankTicket.css",
+		"/home/igor/meteor-app/plankTicket/client/views/home.html",
+		"/home/igor/meteor-app/plankTicket/client/views/home.js",
+		"/home/igor/meteor-app/plankTicket/plankTicket.js",
+		"/home/igor/meteor-app/plankTicket/mytickets.html",
+		"/home/igor/meteor-app/plankTicket/mytickets.js",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket.html",
+		"/home/igor/meteor-app/plankTicket/client/views/newticket.js",
+		"/home/igor/meteor-app/plankticket/client/views/home.html",
+		"/home/igor/meteor-app/plankticket/client/views/home.js",
+		"/home/igor/meteor-app/plankticket/plaskticket.js",
+		"/home/igor/meteor-app/client/plankticket.js",
+		"/home/igor/meteor-app/plankticket/plankticket.html",
+		"/home/igor/meteor-app/plankticket/plankticket.css",
+		"/home/igor/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/usr/share/gnome-shell/theme/gnome-shell.css",
+		"/home/igor/.config/sublime-text-3/Packages/User/Colorsublime.sublime-settings",
+		"/home/igor/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/mw_onestepcheckout/daskboard/onepage/review.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/mw_onestepcheckout/onepage.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/loja.floraisdeminas.com.br/app/design/frontend/bertholdo/brtloja/template/mw_onestepcheckout/daskboard/onepage/agreements.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/skin/frontend/bertholdo/brtconnect/css/default.css",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/catalog/left/filter.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/locale/pt_BR/translate.csv",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/skin/frontend/bertholdo/brtconnect/css/style.css",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/etc/pt_BR/translate.cvs",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/cms/default/home.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/skin/frontend/bertholdo/brtconnect/css/products.css",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/page/html/footer.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/catalog/product/view.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/catalog/product/price.phtml",
+		"/run/user/1000/gvfs/smb-share:server=vinho,share=htdocs/brtconnect/app/design/frontend/bertholdo/brtconnect/template/catalog/product/list.phtml"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"te",
+			"texe",
+			"pag",
+			"esp",
+			"especi",
+			"taxa",
+			"bb[",
+			"mprima este boleto em modo ec",
+			"login",
+			"height: 20",
+			"height",
+			"color",
+			"product-name",
+			"FF",
+			"FFDDB9",
+			"FF7200",
+			"FF8829",
+			" wellcome-message"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"5D3C97"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Anna-Mirror.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/meteor-app/plankTicket/plnakTicket.sublime-workspace"
+			]
+		],
+		"width": 285.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
