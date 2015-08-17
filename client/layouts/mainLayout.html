@@ -1,0 +1,17 @@
+<template name="mainLayout">
+    <div id="slide-container">
+    <header class="bar bar-nav">
+      {{> yield "navButtonLeft"}}
+      {{> yield "navButtonRight"}}
+      {{> yield "navTitle"}}
+    </header>
+
+    <div class="bar bar-footer">
+      {{> yield "barFooter"}}
+    </div>
+
+    {{> yield}}
+  </div>
+
+  {{> yield "modals"}}
+</template>
