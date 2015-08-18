@@ -4,23 +4,44 @@ Router.configure({
 });
 
 Router.route('/', {
+	name: 'Splash',
+    template: 'Splash',
+	action: function () {
+		this.render('Splash');
+	},
+    onAfterAction: function(){
+    	if(Meteor.userId()){
+    		Router.go("Home");
+    	}
+    	this.layout("splashLayout");
+	  	this.next();
+	}
+});
+
+Router.route('/home', {
+	name: 'Home',
     template: 'Home',
     onBeforeAction: function(){
+    	if(!Meteor.userId()){
+    		Router.go("Splash");
+    	}
 	  	this.next();
 	},
 	action: function () {
 		this.render('Home');
-	    SEO.set({ title: 'Home - ' + Meteor.App.NAME });
 	}
 });
 
 Router.route('/tasks', {
+	name: 'TaskList',
     template: 'TasksList',
     onBeforeAction: function(){
+    	if(!Meteor.userId()){
+    		Router.go("/");
+    	}
 	  	this.next();
 	},
 	action: function () {
 	    this.render('TasksList');
-	    SEO.set({ title: 'Home - ' + Meteor.App.NAME });
 	}
 });

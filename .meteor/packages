@@ -41,3 +41,11 @@ fourseven:scss
 useraccounts:ratchet
 axw:ratchet
 less
+fortawesome:fontawesome
+accounts-google
+accounts-facebook
+accounts-twitter
+accounts-ui
+useraccounts:core
+mizzao:jquery-ui
+http

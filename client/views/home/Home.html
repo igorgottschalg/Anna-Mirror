@@ -1,62 +1,14 @@
 <template name="Home">
 	{{#contentFor "navTitle"}}
-	    <h1 class="title">Anna</h1>
-	{{/contentFor}}
-
-	{{#contentFor "navButtonLeft"}}
-		<button type="button" class="btn btn-link btn-nav pull-left" data-toggle-modal="info-modal"><span class="icon icon-bars"></span></button>
+		<h1 class="title"><img src="/images/logo.svg" height="15px" /></h1>
 	{{/contentFor}}
 
 	<div class="content">
 	    <div class="block-group-btn">
-	    	<button class="block-btn"><span class="icon icon-check"></span></button>
+	        <a href="{{pathFor 'TaskList'}}" class="block-btn"><i class="fa fa-check"></i></a>
+	        <a href="{{pathFor 'CalendarList'}}" class="block-btn"><i class="fa fa-calendar-check-o"></i></a>
+	        <a href="{{pathFor 'MusicList'}}" class="block-btn"><i class="fa fa-music"></i></a>
+	        <a href="{{pathFor 'Config'}}" class="block-btn"><i class="fa fa-cog"></i></a>
 	    </div>
-	  </div>
-
-	{{#contentFor "barFooter"}}
-	    <button type="button" class="btn btn-link btn-nav pull-right" data-toggle-modal="new-message-modal"><span class="icon icon-compose"></span></button>
-	    <small class="updated-text">{{numberOfMessages}} Messages</small>
-	  {{/contentFor}}
-
-	  {{#contentFor "modals"}}
-	    <div id="new-message-modal" class="modal">
-	      <header class="bar bar-nav">
-	        <button type="button" class="btn btn-link btn-nav pull-left" data-toggle-modal="new-message-modal">Cancel</button>
-	        <button type="button" class="btn btn-link btn-nav pull-right" data-toggle-modal="new-message-modal">Send</button>
-	        <h1 class="title">New Message</h1>
-	      </header>
-
-	      <div class="content">
-	        <form class="input-group">
-	          <div class="input-row">
-	            <label>To:</label>
-	            <input type="email" placeholder="john.appleseed@me.com">
-	          </div>
-	          <div class="input-row">
-	            <label>Subject:</label>
-	            <input type="text" placeholder="Hi there!">
-	          </div>
-	          <textarea rows=8 cols=6 placeholder="Enter your message..." class="new-message-textarea"></textarea>
-	        </form>
-	      </div>
-	    </div>
-
-	    <div id="info-modal" class="modal">
-	      <header class="bar bar-nav">
-	        <button type="button" class="btn btn-link btn-nav pull-right" data-toggle-modal="info-modal"><span class="icon icon-close"></span></button>
-	        <h1 class="title">About Meteor Mailbox</h1>
-	      </header>
-
-	      <div class="content">
-	        <div class="card">
-	          <p>
-	            This is a quick example app showing how to integrated the <a href="http://goratchet.com">Ratchet</a> Mobile UI Framework with <a href="http://meteor.com">Meteor</a>.
-	          </p>
-	          <p>
-	            It was built by <a href="http://exygen.io">Nick Wientge</a> and is available on <a href="https://github.com/nickw/meteor-mailbox">Github</a>.
-	          </p>
-	        </div>
-	      </div>
-	    </div>
-	  {{/contentFor}}
+	</div>
 </template>

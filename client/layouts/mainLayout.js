@@ -34,5 +34,8 @@ Template.mainLayout.events({
 
   'click [data-nav-direction]': function(event) {
     navDirection = $(event.currentTarget).data('nav-direction');
+  },
+  'click #goBack': function(event){
+    Router.go('Home');
   }
 });
