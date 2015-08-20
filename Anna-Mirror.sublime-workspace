@@ -145,7 +145,7 @@
 	"command_palette":
 	{
 		"height": 300.0,
-		"last_filter": "forma",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -215,18 +215,11 @@
 	"expanded_folders":
 	[
 		"/home/igor/meteor-app/Anna-Mirror",
-		"/home/igor/meteor-app/Anna-Mirror/.meteor/local",
-		"/home/igor/meteor-app/Anna-Mirror/.meteor/local/build/programs",
-		"/home/igor/meteor-app/Anna-Mirror/.meteor/local/db/journal",
 		"/home/igor/meteor-app/Anna-Mirror/client",
 		"/home/igor/meteor-app/Anna-Mirror/client/compatibility",
 		"/home/igor/meteor-app/Anna-Mirror/client/layouts",
 		"/home/igor/meteor-app/Anna-Mirror/client/stylesheets",
-		"/home/igor/meteor-app/Anna-Mirror/client/views/home",
-		"/home/igor/meteor-app/Anna-Mirror/client/views/tasks",
 		"/home/igor/meteor-app/Anna-Mirror/collections",
-		"/home/igor/meteor-app/Anna-Mirror/config/development",
-		"/home/igor/meteor-app/Anna-Mirror/config/production",
 		"/home/igor/meteor-app/Anna-Mirror/public",
 		"/home/igor/meteor-app/Anna-Mirror/routes",
 		"/home/igor/meteor-app/Anna-Mirror/server"
@@ -479,15 +472,17 @@
 						"selection":
 						[
 							[
-								1861,
-								1861
+								1478,
+								1478
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
@@ -516,7 +511,7 @@
 							"auto_name": "Task = new Mongo.collection('task');",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -613,7 +608,7 @@
 		[
 			[
 				"",
-				"~/meteor-app/plankTicket/plnakTicket.sublime-workspace"
+				"~/meteor-app/plankTicket/PlankTicket.sublime-workspace"
 			]
 		],
 		"width": 285.0
